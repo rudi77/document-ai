@@ -1,0 +1,15 @@
+data:
+  csv_dir: YOUR_CSV_DIR
+  image_dir: YOUR_IMAGE_DIR  
+  batch_size: 4
+  num_workers: 10
+model:
+  num_classes: 4
+  learning_rate: 5e-5
+  label2idx: 
+    O : 0
+    Label1: 1
+    Label2: 2
+    Label3: 3
+trainer:
+  max_epochs: 20
